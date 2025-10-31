@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="../css/index.css">
         <link rel="stylesheet" href="../css/modulos.css">
         <link rel="icon" href="../imgs/ciclo-titulo.png">
+        <link rel="stylesheet" href="../css/chatbot.css">
 
     </head>
     <body>
@@ -93,10 +94,58 @@
             </div>
         </div>
 
+
+
+        <div id="chatbot">
+            
+            <div id="chat-header">
+
+                <span id="chat-title" style="display: none;">Como eu Poderia Te Ajudar?</span>
+
+                <button id="minimize-button">O</button>
+
+            </div>
+
+            <div id="chat-intro" style="display: none;">
+
+                <p>Por favor, insira seu nome para começarmos.</p>
+
+                 <div class="input-wrapper">
+                    <input type="text" id="nome-usuario" required placeholder=" " />
+                    <label for="nome-usuario">Digite seu nome...</label>
+                 </div>
+
+                <button id="iniciar-chat">Iniciar chat</button>
+
+            </div>
+
+            <div id="chat-window" style="display: none;">
+
+                <div id="chat-output"></div>
+
+                <div id="input-container">
+
+                    <div class="input-wrapper">
+                        <input type="text" id="entrada-usuario" required placeholder=" " />
+                        <label for="entrada-usuario">Digite sua duvida...</label>
+                        <button id="botao-enviar">Enviar</button>
+                    </div>
+
+                    
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
         <footer>
             <p>Todos os direitos reservados. 2025.</p>
         </footer>
         
         <script src="../js/navegacao.js"></script>
+        <script src="../js/chatbot.js"></script>
     </body>
 </html>

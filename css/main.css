@@ -221,14 +221,16 @@ p {
 }
 
 .wrapper {
+
 	min-width: min(40rem, 100%);
+  
 }
 
 .box {
 
-	border: 4px solid;
-	border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
-	animation: borderRotate var(--d) linear infinite forwards;
+    border: 4px solid;
+    border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
+    animation: borderRotate var(--d) linear infinite forwards;
     width: 600px;
     height: 750px;
     margin: auto;
@@ -236,9 +238,10 @@ p {
     padding: 10px;
     margin-top: 5%;
     opacity: 0.9;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.7);
     position: relative;
     overflow-y: auto;
+    color: #ffffff;
 
 }
 
@@ -261,5 +264,32 @@ footer{
     color: #fff;
     text-align: center;
     right: 38%;
+
+}
+
+
+/****************************Responsividade***************************/
+
+
+@media (max-width: 480px){
+
+  .box{
+
+      width: 400px;
+
+  }
+
+  h1{
+
+    font-size: 30px;
+    margin-bottom: 30px;
+
+  }
+
+  footer{
+
+    right: 20%;
+
+  }
 
 }

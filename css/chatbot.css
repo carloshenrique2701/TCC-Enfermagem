@@ -4,7 +4,7 @@
     position:fixed;
     bottom: 20px;
     right: 20px;
-    width: 300px;
+    width: 50px;
     border: 1px solid #ccc;
     border-radius: 8px;
     background-color: #fff;
@@ -12,6 +12,7 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    transition: all 0.3s ease-in-out;
 
 }
 
@@ -235,4 +236,14 @@ input:not(:placeholder-shown) + label {
     color: #000;
     align-self: flex-start;
 
+}
+
+@media (max-width: 480px){
+
+    #chatbot{
+
+        bottom: 10px;
+
+    }
+  
 }

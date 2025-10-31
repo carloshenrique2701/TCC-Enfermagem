@@ -8,6 +8,8 @@ let nomeUsuario = '';
 
 let introFechada = false;
 
+let chatOn = false;
+
 const qa = [
 
     {pergunta:"Olá", resposta: "Olá, como posso ajudar?"},
@@ -273,10 +275,13 @@ function alternarJanelaChat(){
         if (janelaIntro.style.display === 'none') {
         
             botao.textContent = 'O';
+
+            chatOn = !chatOn
     
         } else {
     
             botao.textContent = '_';
+            chatOn = !chatOn
     
         }
     } else{
@@ -291,10 +296,12 @@ function alternarJanelaChat(){
         if (janelaChat.style.display === 'none') {
             
             botao.textContent = 'O';
+            chatOn = !chatOn
 
         } else {
 
             botao.textContent = '_';
+            chatOn = !chatOn
 
         }
 
@@ -303,3 +310,22 @@ function alternarJanelaChat(){
 
 
 }
+
+document.getElementById('chatbot').addEventListener('mouseover', function () {
+    
+    this.style.width = 300 + 'px';
+
+    document.getElementById('chat-title').style.display = 'block';
+
+})
+document.getElementById('chatbot').addEventListener('mouseout', function () {
+    
+    if(!chatOn) {
+
+        this.style.width = 50 + 'px';
+
+        document.getElementById('chat-title').style.display = 'none';
+
+    }
+
+})

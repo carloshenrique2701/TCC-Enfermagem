@@ -1,0 +1,49 @@
+#voltar{
+
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 20px;
+    padding: 0 10px;
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 20px;
+
+}
+
+#voltar:hover{
+
+    color: #ddd;
+    scale: 1.1;
+    border-color: #ddd;
+
+}
+
+h2, h3{
+
+    font-weight: bold;
+    margin: 20px;
+
+}
+
+
+ul {
+
+    text-align: left;
+
+}
+
+ul li{
+
+    margin: 10px;
+
+}
+
+p{
+
+    margin: 10px;
+
+}

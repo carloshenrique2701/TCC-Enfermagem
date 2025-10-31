@@ -1,0 +1,45 @@
+.modulo{
+
+    text-align: left;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 8px;
+    width: 90%;
+    margin: 18px auto;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    padding-left: 20px;
+
+}
+
+#Modulo1:hover{
+
+    background-color: #a23982;
+
+}
+#Modulo2:hover{
+
+    background-color: #a0a239;
+
+}
+#Modulo3:hover{
+
+    background-color: #a23955;
+
+}
+#Modulo4:hover{
+
+    background-color: #39a242;
+
+}
+#Modulo5:hover{
+
+    background-color: #a26a39;
+
+}
+
+#Alerta:hover{
+
+    background-color: #a23939;
+
+}

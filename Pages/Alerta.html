@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sinais de Alerta!!! 🚨⚠️</title>
+        <link rel="stylesheet" href="../css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+        <link rel="stylesheet" href="../css/index.css">
+        <link rel="stylesheet" href="../css/modulos.css">
+        <link rel="icon" href="../imgs/ciclo-titulo.png">
+    </head>
+    <body>
+        <div class='light x1'></div>
+        <div class='light x2'></div>
+        <div class='light x3'></div>
+        <div class='light x4'></div>
+        <div class='light x5'></div>
+        <div class='light x6'></div>
+        <div class='light x7'></div>
+        <div class='light x8'></div>
+        <div class='light x9'></div>
+
+        <h1>Sinais de Alerta!!! 🚨⚠️</h1>
+
+        <button id="voltar" onclick="voltar()">←</button>
+        
+        <div class="wrapper">
+            <div class="box">
+                <!-- MÓDULO: SINAIS DE ALERTA -->
+                <div class="modulo-container">
+                    
+                    <!-- Card Principal de Alerta -->
+                    <div class="card alerta-principal">
+                        <h2>🚨 Atenção! Quando Procurar Ajuda Imediata</h2>
+                        <p>Alguns sinais indicam que você precisa de atenção médica. <strong>Não ignore seu corpo!</strong> Procure o enfermeiro escolar ou posto de saúde se notar qualquer um destes sintomas.</p>
+                    </div>
+
+                    <!-- Card Fluxo Menstrual -->
+                    <div class="card alerta-item grave">
+                        <div class="alerta-header">
+                            <h3>🩸 Fluxo Menstrual Anormal</h3>
+                            <span class="emoji-alerta">💥</span>
+                        </div>
+                        <div class="alerta-content">
+                            <ul class="sinais-lista">
+                                <li><strong>Fluxo Muito Forte:</strong> Precisa trocar absorvente de hora em hora por mais de 4 horas seguidas</li>
+                                <li><strong>Sangramento Entre Períodos:</strong> Sangramento fora da época da menstruação</li>
+                                <li><strong>Coágulos Grandes:</strong> Coágulos maiores que uma moeda de R$1</li>
+                                <li><strong>Duração Prolongada:</strong> Menstruação que dura mais de 7 dias</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Card Dor e Cólica -->
+                    <div class="card alerta-item grave">
+                        <div class="alerta-header">
+                            <h3>🤕 Dor e Cólica Intensa</h3>
+                            <span class="emoji-alerta">😫</span>
+                        </div>
+                        <div class="alerta-content">
+                            <ul class="sinais-lista">
+                                <li><strong>Dor Incapacitante:</strong> Cólica que não passa com remédio ou te impede de ir à aula/trabalho</li>
+                                <li><strong>Dor que Causa Vômitos:</strong> Cólica tão forte que te faz vomitar</li>
+                                <li><strong>Dor que Irradia:</strong> Dor que vai para as costas, coxas ou outras regiões</li>
+                                <li><strong>Dor Persistente:</strong> Dor que dura mais de 3 dias durante a menstruação</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Card Ciclo Irregular -->
+                    <div class="card alerta-item moderado">
+                        <div class="alerta-header">
+                            <h3>📅 Ciclo Menstrual Irregular</h3>
+                            <span class="emoji-alerta">🔄</span>
+                        </div>
+                        <div class="alerta-content">
+                            <ul class="sinais-lista">
+                                <li><strong>Ciclos Muito Curtos:</strong> Menos de 21 dias entre uma menstruação e outra</li>
+                                <li><strong>Ciclos Muito Longos:</strong> Mais de 35 dias entre os ciclos</li>
+                                <li><strong>Ausência Menstrual:</strong> Ficar mais de 3 meses sem menstruar (sem estar grávida)</li>
+                                <li><strong>Variação Extrema:</strong> Ciclos que variam muito em duração mês a mês</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Card Sintomas Gerais -->
+                    <div class="card alerta-item moderado">
+                        <div class="alerta-header">
+                            <h3>😵‍💫 Sintomas Gerais Preocupantes</h3>
+                            <span class="emoji-alerta">🌟</span>
+                        </div>
+                        <div class="alerta-content">
+                            <ul class="sinais-lista">
+                                <li><strong>Tontura ou Desmaio:</strong> Durante a menstruação</li>
+                                <li><strong>Palidez Extrema:</strong> Pele muito pálida ou unhas arroxeadas</li>
+                                <li><strong>Fadiga Excessiva:</strong> Cansaço que não melhora com o descanso</li>
+                                <li><strong>Febre com Cólica:</strong> Febre acompanhada de dor pélvica</li>
+                                <li><strong>Perda de Peso:</strong> Perda de peso significativa sem motivo aparente</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Card Sinais Emocionais -->
+                    <div class="card alerta-item emocional">
+                        <div class="alerta-header">
+                            <h3>😔 Sinais Emocionais Importantes</h3>
+                            <span class="emoji-alerta">💭</span>
+                        </div>
+                        <div class="alerta-content">
+                            <ul class="sinais-lista">
+                                <li><strong>TPM Severa:</strong> Sintomas que impedem atividades normais</li>
+                                <li><strong>Mudanças Bruscas de Humor:</strong> Que afetam relacionamentos</li>
+                                <li><strong>Tristeza Profunda:</strong> Que dura mais de duas semanas</li>
+                                <li><strong>Ansiedade Intensa:</strong> Que interfere nos estudos ou vida social</li>
+                                <li><strong>Pensamentos Negativos:</strong> Sobre si mesma ou sobre a vida</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Card O Que Fazer -->
+                    <div class="card acoes">
+                        <h2>🆘 O Que Fazer ao Identificar Sinais</h2>
+                        <div class="acoes-grid">
+                            <div class="acao-item">
+                                <h3>👩‍⚕️ Procure o Enfermeiro Escolar</h3>
+                                <p>Primeiro ponto de ajuda para avaliação inicial e orientação</p>
+                            </div>
+                            <div class="acao-item">
+                                <h3>🏥 Vá ao Posto de Saúde</h3>
+                                <p>Para atendimento médico e exames quando necessário</p>
+                            </div>
+                            <div class="acao-item">
+                                <h3>📞 Converse com Adultos de Confiança</h3>
+                                <p>Pais, responsáveis ou professores podem te ajudar</p>
+                            </div>
+                            <div class="acao-item">
+                                <h3>🎯 Não Espere Piorar</h3>
+                                <p>Busque ajuda logo nos primeiros sinais preocupantes</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card Lembrete Urgente -->
+                    <div class="card urgente">
+                        <h2>💢 PROCURE AJUDA IMEDIATA SE:</h2>
+                        <div class="urgente-lista">
+                            <div class="urgente-item">
+                                <span class="emoji-urgente">🆘</span>
+                                <p><strong>Dor MUITO forte</strong> que não melhora com nada</p>
+                            </div>
+                            <div class="urgente-item">
+                                <span class="emoji-urgente">🆘</span>
+                                <p><strong>Sangramento MUITO intenso</strong> (troca a cada 30 minutos)</p>
+                            </div>
+                            <div class="urgente-item">
+                                <span class="emoji-urgente">🆘</span>
+                                <p><strong>Desmaio ou tontura severa</strong></p>
+                            </div>
+                            <div class="urgente-item">
+                                <span class="emoji-urgente">🆘</span>
+                                <p><strong>Febre alta + dor abdominal</strong></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Todos os direitos reservados. 2025.</p>
+        </footer>
+        
+        <script src="../js/navegacao.js"></script>
+    </body>
+</html>

@@ -43,4 +43,38 @@
     background-color: #a23939;
 
 }
+@media (max-width: 480px){
 
+    #Modulo1{
+
+        background-color: #a23982;
+    
+    }
+    #Modulo2{
+    
+        background-color: #a0a239;
+    
+    }
+    #Modulo3{
+    
+        background-color: #a23955;
+    
+    }
+    #Modulo4{
+    
+        background-color: #39a242;
+    
+    }
+    #Modulo5{
+    
+        background-color: #a26a39;
+    
+    }
+    
+    #Alerta{
+    
+        background-color: #a23939;
+    
+    }
+
+}
